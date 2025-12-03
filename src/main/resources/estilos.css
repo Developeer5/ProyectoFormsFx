@@ -1,0 +1,37 @@
+.text-field {
+    -fx-background-radius: 8;
+    -fx-padding: 6;
+    -fx-background-color: #ffffff;
+    -fx-border-radius: 10;
+    -fx-border-color: #D0D5DD;
+    -fx-border-width: 1px;
+    -fx-text-fill: #1A1A1A;
+    -fx-font-size: 14px;
+}
+
+.text-fel:hover {
+    -fx-border-color: #6E8EF5;
+}
+
+.button {
+    -fx-background-color: #10203D;
+    -fx-text-fill: white;
+    -fx-background-radius: 10;
+    -fx-padding: 8 18;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #1C345C;
+}
+
+.button:pressed {
+    -fx-background-color: #091120;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #1A1A1A;
+}
